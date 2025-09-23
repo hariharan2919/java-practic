@@ -1,0 +1,173 @@
+1 . DESCENDING ORDER
+
+import java.util.Scanner;
+public class descendingorder{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int size=kbd.nextInt();
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++){
+            arr[i] = kbd.nextInt();
+        }           
+          System.out.print("Array Elements : ");
+
+        for(int i=0;i<size;i++){
+            System.out.print(arr[i]+" ");
+        }
+        for(int i=size-1;i>=0;i--){
+        }
+        System.out.print("descending order : ");
+
+        for(int i=size-1;i>=0;i--){
+            System.out.print(arr[i]+" ");
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------------
+2 . FACTORIAL 
+
+import java.util.*;
+public class factorial{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int n=kbd.nextInt();
+        int fact =1;
+        for(int i=1;i<=n;i++){
+            fact *=i;
+        }
+         System.out.print(fact);
+    }
+}
+-------------------------------------------------------------------------------------------------------
+3 . DESCENDING ORDER
+
+import java.util.Scanner;
+public class descendingorder{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int size=kbd.nextInt();
+        int[] arr=new int[size];
+        for(int i=0;i<size;i++){
+            arr[i] = kbd.nextInt();
+        }           
+          System.out.print("Array Elements : ");
+
+        for(int i=0;i<size;i++){
+            System.out.print(arr[i]+" ");
+        }
+        for(int i=size-1;i>=0;i--){
+        }
+        System.out.print("descending order : ");
+
+        for(int i=size-1;i>=0;i--){
+            System.out.print(arr[i]+" ");
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------------------
+4 . DIVISABLE BY 3 AND 5
+
+import java.util.*;
+public class divisable{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int n=kbd.nextInt();
+        if(n%3==0 && n%5==0)
+        {
+            System.out.print("Yes");
+        }
+        else{
+            System.out.print("No");
+        }
+    }
+        
+        
+}
+-----------------------------------------------------------------------------------------------------------------
+5 . MAX AND MIN 2 NUMBERS
+
+import java.util.*;
+public class maxandmin{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int a=kbd.nextInt();
+        int b=kbd.nextInt();
+        int max , min;
+        if(a>b){
+            max=a;
+            min=b;
+        }
+        else{
+            max=b;
+            min=a;
+        }
+        System.out.println("MAX=" + max +);
+        System.out.print("MIN=" + min);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+6 . MAX OF 3 NUMBER
+
+import java.util.*;
+
+public class maxof3num{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+    
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        int max, min;
+        if (a >= b && a >= c) {
+            max = a;
+        } else if (b >= a && b >= c) {
+            max = b;
+        } else {
+            max = c;
+        }
+        
+        System.out.println("Max=" + max);
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+7 . ODD OR EVEN
+
+import java.util.*;
+public class oddoreven{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int n=kbd.nextInt();
+        if(n%2==0){
+            System.out.print("The number is even ");
+        }
+        else
+        {
+            System.out.print("The number is odd ");
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+8 . POSITIVE OR NEGATIVE
+
+import java.util.*;
+public class posorneg{
+    public static void main(String[]args){
+        Scanner kbd=new Scanner(System.in);
+        int n=kbd.nextInt();
+        if(n<0){
+            System.out.print("The given number is negative");
+        }
+        if(n>0)
+        {
+            System.out.print("The given numbr is positive");
+        }
+        if(n==0)
+        {
+          System.out.print("The given number is zero");
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------
+9 . 
